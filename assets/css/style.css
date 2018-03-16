@@ -10,12 +10,14 @@ body {
 }
 
 header {
+    position:fixed;
     background-color: #ffffff;
     height:80px;
     width:100%;
     border-color:#cccccc;
     border-bottom-style: solid;
     border-bottom-width: 1px;
+    z-index:3;
 }
 
 #header-container {
@@ -26,29 +28,6 @@ header {
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
-section {
-    position:relative;
-    top:20px;
-    width:960px;
-    margin-left:auto;
-    margin-right:auto;
-    background-color:#ffffff;
-    border-color:#dddddd;
-}
-
-#section-content {
-    padding-left:10px;
-    padding-right:10px;
-    padding-top:5px;
-    padding-bottom:5px;
-}
-
-img {
-    float:left;
-    padding-right:10px;
-    padding-bottom:10px;
-}
-
 
 
 h1 {
@@ -56,7 +35,7 @@ h1 {
     display:inline-block;
     background-color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    font-weight:bold;
+    font-weight:bolder;
     color:white;
     font-size:25px;
     bottom:0px;
@@ -65,23 +44,29 @@ h1 {
 
 h2 {
     font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size:20px;
+    font-weight:bold;
     color:#4aaaa5;
-    padding-bottom:20px;
+    padding:20px 0px 20px 0px;
     border-bottom: solid;
     border-width: 1px;
     border-color:#dddddd;
+    margin-bottom: 30px;
 }
+
 nav {
     display:inline-block;    
     position:absolute;
-    right:5px;
+    right:15px;
     bottom:25px;
     font-size:15px;
     list-style-type:none;
 }
 
 ul {
-  float:right;
+
+    float:right;
+
 }
 li {
     float:left;
@@ -106,6 +91,43 @@ a:hover, a:visited, a:link, a:active
     text-decoration: none;
 }
 
+a:hover {
+    background-color:#4aaaa5;
+    color:white;
+}
+
+
+
+section {
+    position:relative;
+    top:90px;
+    width:960px;
+    bottom:30px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:100px;
+    background-color:#ffffff;
+    border-color:#dddddd;
+}
+
+#section-content {
+    padding-left:15px;
+    padding-right:15px;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+img {
+    float:left;
+    padding-right:10px;
+    padding-bottom:10px;
+}
+
+p {
+    padding-bottom:10px;
+    line-height:50px;
+}
+
 footer {
     background-color:#666666;
     color:white;
@@ -116,5 +138,6 @@ footer {
     text-align:center;
     padding-top:20px;
     padding-bottom:10px;
+    border-top:solid 5px #4aaaa5;
 }
 
