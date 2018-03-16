@@ -117,16 +117,47 @@ section {
     padding-bottom:5px;
 }
 
-img {
+
+
+#image-about {
     float:left;
     padding-right:10px;
     padding-bottom:10px;
+}
+
+#portfolio-container {
+    margin:auto;
+    padding-left:25px;
+}
+img .portfolio {
+    display:inline-block;
+}
+
+.image-container {
+    position:relative;
+    display:inline-block;
+    margin:10px 10px 10px 10px;
 }
 
 p {
     padding-bottom:10px;
     line-height:50px;
 }
+
+
+.image-overlay {
+    position:absolute;
+    width:100%;
+    bottom:20px;
+    background-color:#4aaaa5;
+    color:white;
+    text-align:center;
+    padding-top:3px;
+    padding-bottom:3px;
+}
+
+
+
 
 footer {
     background-color:#666666;
