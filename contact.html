@@ -3,44 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
 </head>
+
 <body>
-   <header>
-        <div>
-            <h1>Zac Keilholz</h1>
-        </div>
- 
-        <div>
-             <nav>
-                 <ul>
-                     <li><a href="index.html">About</a></li>
-                     <li><a href="portfolio.html">Portfolio</a></li>
-                     <li><a href="contact.html">Contact</a></li>
-                 </ul>
-             </nav>
-        </div>
-    </header>
-    
-    <section>
-        <div>
-
-            <div>
-                <h2>Contact</h2>
+    <header>
+            <div id="header-container">
+                <h1>Zac Keilholz</h1>
+            
+                <nav>
+                    <ul>
+                        <li><a href="index.html"> About </a></li>
+                        <li><a href="portfolio.html"> Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
             </div>
+        </header>
 
-            <div>
-            <form action="/action_page.php">
-                    Name<br>
-                    <input type="text" name="John Smith"><br>
-                    Email<br>
-                    <input type="text" email="example@gmail.com"><br>
-                    Message<br>
-                    <textarea name="message" rows"10" cols="30">
-                    </textarea><br>
-                    <input type="submit"><br>
-            </form>
+    <section>
+        <div class="section-content">
+
+            <h2>Contact</h2>
+
+            <div class="form-container">
+                <form action="/action_page.php">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="fullname" placeholder="John Smith">
+
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="emailaddress" placeholder="example@gmail.com">
+
+                    <label for="textarea">Message</label>
+                    <textarea id="textearea" name="message"> </textarea>
+                   
+                    <input type="submit" value="Submit">
+                </form>
+
             </div>
 
         </div>
