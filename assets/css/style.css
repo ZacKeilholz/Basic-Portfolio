@@ -32,6 +32,7 @@ header {
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
+/*I intentionally made the background box of the h1 tag slightly dropped in the header.  I like the white space above it.*/
 h1 {
     position:absolute;
     display:inline-block;
